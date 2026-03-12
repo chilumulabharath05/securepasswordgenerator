@@ -1,12 +1,11 @@
 {
-  "name": "secure-password-generator-ui",
+  "name": "secure-password-generator",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "npx vite build",
-    "preview": "npx vite preview"
-  },
+    "build": "npm install && npx vite build",
+    "dev": "npm install && npx vite"
+  }
+},
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
