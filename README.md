@@ -212,3 +212,7 @@ taskkill /PID <pid> /F
 **Frontend can't connect to backend:**
 → Make sure backend is running on port 8080 first.
 → Check vite.config.js has proxy: `'/api' → 'http://localhost:8080'`
+
+## Live
+https://securepasswordgenerator-peach.vercel.app/
+
