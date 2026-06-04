@@ -31,6 +31,15 @@ public class PasswordHistory {
     // ── Constructors ──────────────────────────────────────────────────
 
     public PasswordHistory() {}
+    private boolean breachChecked;
+
+    public boolean isBreachChecked() {
+        return breachChecked;
+    }
+
+    public void setBreachChecked(boolean breachChecked) {
+        this.breachChecked = breachChecked;
+    }
 
     // ── Getters & Setters ─────────────────────────────────────────────
 
