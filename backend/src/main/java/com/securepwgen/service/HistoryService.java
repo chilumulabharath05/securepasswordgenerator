@@ -37,7 +37,7 @@ public class HistoryService {
         h.setEntropyBits(entry.getEntropyBits());
         h.setStrengthLevel(entry.getStrengthLevel());
         h.setPassphrase(passphrase);
-        h.setBreachChecked(entry.isBreached());
+        h.setBreachChecked(Boolean.TRUE.equals(entry.getBreached()));
 
         PasswordHistory saved = repo.save(h);
         log.info("Saved encrypted history entry [id={}]", saved.getId());
